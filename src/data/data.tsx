@@ -69,18 +69,17 @@ export type SectionId = typeof SectionId[keyof typeof SectionId];
  */
 export const heroData: Hero = {
   imageSrc: heroImage,
-  name: `I'm Tim Baker.`,
+  name: `I'm SK.`,
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        I'm a Victoria based <strong className="text-stone-100">Full Stack Software Engineer</strong>, currently working
-        at <strong className="text-stone-100">Instant Domains</strong> helping build a modern, mobile-first, domain
-        registrar and site builder.
+        I'm an MA based <strong className="text-stone-100">AWS & DevOps Architect</strong>, currently working
+        at <strong className="text-stone-100">Acadian Asset Management</strong> building tools and services 
+        that helps our Investment & Research teams to migrate to AWS and deploy their applications quickly 
+        and securely.
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        In my free time time, you can catch me training in <strong className="text-stone-100">Muay Thai</strong>,
-        plucking my <strong className="text-stone-100">banjo</strong>, or exploring beautiful{' '}
-        <strong className="text-stone-100">Vancouver Island</strong>.
+        In my free time time, you can catch me playing with my kids, Playstation, or exploring places in my Mazda. 
       </p>
     </>
   ),
@@ -129,66 +128,89 @@ export const skills: SkillGroup[] = [
         level: 10,
       },
       {
-        name: 'French',
-        level: 4,
-      },
-      {
-        name: 'Spanish',
-        level: 3,
+        name: 'Tamil',
+        level: 10,
       },
     ],
   },
   {
-    name: 'Frontend development',
+    name: 'Development',
     skills: [
       {
-        name: 'React',
-        level: 9,
-      },
-      {
-        name: 'Typescript',
+        name: 'Python',
         level: 7,
       },
       {
-        name: 'GraphQL',
+        name: 'Powershell, Bash',
         level: 6,
-      },
+      },   
     ],
   },
   {
-    name: 'Backend development',
+    name: 'Public Cloud',
     skills: [
       {
-        name: 'Node.js',
+        name: 'AWS',
         level: 8,
       },
       {
-        name: 'Rust',
-        level: 5,
-      },
-      {
-        name: 'Golang',
-        level: 4,
-      },
-    ],
-  },
-  {
-    name: 'Mobile development',
-    skills: [
-      {
-        name: 'React Native',
-        level: 9,
-      },
-      {
-        name: 'Flutter',
-        level: 4,
-      },
-      {
-        name: 'Swift',
+        name: 'Azure',
         level: 3,
       },
     ],
   },
+  {
+    name: 'CI/CD',
+    skills: [
+      {
+        name: 'Gitlab',
+        level: 8,
+      },
+      {
+        name: 'Jenkins',
+        level: 7,
+      },
+    ],
+  },
+  {
+    name: 'IaaC & Automation',
+    skills: [
+      {
+        name: 'Terraform',
+        level: 8,
+      },
+      {
+        name: 'CloudFormation',
+        level: 5,
+      }
+    ],
+  },  
+  {
+    name: 'Config. Management',
+    skills: [
+      {
+        name: 'Ansible',
+        level: 8,
+      },
+      {
+        name: 'Puppet',
+        level: 5,
+      }
+    ],
+  },    
+  {
+    name: 'Server Administration',
+    skills: [
+      {
+        name: 'Linux',
+        level: 7,
+      },
+      {
+        name: 'Windows',
+        level: 7,
+      }
+    ],
+  },  
 ];
 
 /**
